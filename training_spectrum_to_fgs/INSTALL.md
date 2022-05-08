@@ -45,22 +45,19 @@ $ pip install numpy pandas matplotlib scikit-learn scipy Flask git+https://githu
 $ python -m ipykernel install --user --name=deep-ir-01
 ```
 
-
 # 2. Training and Validation
 
 1. To get nist data, you should buy it from `https://www.nist.gov/srd/nist-standard-reference-database-35`, and put & rename the folder to `./data/nist/`.
 
 ![nist data](https://github.com/JasonYCHuang/chem-dl-ir/blob/master/training_spectrum_to_fgs/assets/nist.jpg)
 
-
 2. run following files one-by-one
 
-
 ```
+00_explanation_nist_and_in_house_dataset.ipynb
 01_load_data.ipynb
 02_train_model.ipynb
 03_verify_model_and_save_acc.ipynb
 
 04_count_spectra.ipynb
 ```
-
